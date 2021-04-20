@@ -4,10 +4,9 @@
 
 # Download & load required packages ####
 
-#source("http://bioconductor.org/biocLite.R")
-#biocLite()
-#biocLite("NOISeq")
-#biocLite("RColorBrewer")
+#install.packages("BiocManager")
+#BiocManager::install("NOISeq")
+#BiocManager::install("RColorBrewer")
 library(NOISeq)
 library(RColorBrewer)
 
